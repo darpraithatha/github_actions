@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@test_built
+      - uses: actions/checkout@v2
         with:
           fetch-depth: 1
       - name: Run Makefile
